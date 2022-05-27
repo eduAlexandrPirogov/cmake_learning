@@ -73,11 +73,38 @@ add_executable(hello hello.cpp)
 
 `cmake -S . -B buildtree`
 
+Terminal:
+```
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: //first_building/buildtree
+```
+
 CMake создаст директорию **buildtree/**, т.е. пройдет стадию конфигурации и генерации. В директории **buildtree/** будут лежать данные о проекте, нашей среде и т.д.
 
 Для сборки проекта, запустим следующую команду:
 
 `cmake --build buildtree/`
+
+
+Terminal:
+```
+[ 50%] Building CXX object CMakeFiles/hello.dir/hello.cpp.o
+[100%] Linking CXX executable hello
+[100%] Built target hello
+```
 
 В директории **buildtree** (если процесс сборки успешно завершен) появится бинарный файл **hello**, который мы можем запустить.
 
