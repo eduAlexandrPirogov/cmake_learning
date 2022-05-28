@@ -1,3 +1,0 @@
-/home/edual/Desktop/cmake_learning/what_is_cmake/source_code/first_building/buildtree/CMakeFiles/hello.dir
-/home/edual/Desktop/cmake_learning/what_is_cmake/source_code/first_building/buildtree/CMakeFiles/edit_cache.dir
-/home/edual/Desktop/cmake_learning/what_is_cmake/source_code/first_building/buildtree/CMakeFiles/rebuild_cache.dir

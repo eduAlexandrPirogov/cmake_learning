@@ -1,0 +1,9 @@
+/home/edual/Desktop/cmake_learning/building_with_libraries/source_code/with_dir/out/build/CMakeFiles/math_log.dir
+/home/edual/Desktop/cmake_learning/building_with_libraries/source_code/with_dir/out/build/CMakeFiles/edit_cache.dir
+/home/edual/Desktop/cmake_learning/building_with_libraries/source_code/with_dir/out/build/CMakeFiles/rebuild_cache.dir
+/home/edual/Desktop/cmake_learning/building_with_libraries/source_code/with_dir/out/build/math_lib/CMakeFiles/math_lib.dir
+/home/edual/Desktop/cmake_learning/building_with_libraries/source_code/with_dir/out/build/math_lib/CMakeFiles/edit_cache.dir
+/home/edual/Desktop/cmake_learning/building_with_libraries/source_code/with_dir/out/build/math_lib/CMakeFiles/rebuild_cache.dir
+/home/edual/Desktop/cmake_learning/building_with_libraries/source_code/with_dir/out/build/log_lib/CMakeFiles/log_lib.dir
+/home/edual/Desktop/cmake_learning/building_with_libraries/source_code/with_dir/out/build/log_lib/CMakeFiles/edit_cache.dir
+/home/edual/Desktop/cmake_learning/building_with_libraries/source_code/with_dir/out/build/log_lib/CMakeFiles/rebuild_cache.dir
