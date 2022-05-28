@@ -251,7 +251,7 @@ target_link_libraries(${PROJECT_NAME} log_lib)
  
 ## Оптимизация CMakeLists.txt
 
-У нас много повторяющихся команд в **top-level CMakeLists.txt**. Мы улучшить его следующим образом:
+У нас много повторяющихся команд в **top-level CMakeLists.txt**. Мы можем улучшить его следующим образом:
 
 ```
 #set cmake's polices version
