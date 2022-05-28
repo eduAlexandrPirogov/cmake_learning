@@ -249,3 +249,27 @@ target_link_libraries(${PROJECT_NAME} log_lib)
 Тут есть некоторые особенность:
 `target_include_directories(${PROJECT_NAME} PRIVATE log_lib)` -- команда, которая позволяет в `main.cpp` не указывает относительный путь к библиотеке, а просто писать #include "log.h"
  
+## Оптимизация CMakeLists.txt
+
+У нас много повторяющихся команд в **top-level CMakeLists.txt**. Мы улучшить его следующим образом:
+
+```
+#set cmake's polices version
+cmake_minimum_required(VERSION 3.20)
+
+#set project's name
+project(project_with_libs)
+
+#set executable
+add_executable(${PROJECT_NAME} main.cpp)
+
+#adding math_lib and log_lib subdirectories
+add_subdirectory(math_lib)
+add_subdirectory(log_lib)
+
+#including libraries
+target_include_directories(${PROJECT_NAME} PUBLIC math_lib log_lib) #<-- Вклюачем несколько директорий сразу (не забудьте поправить main.cpp)
+
+#linking libraries
+target_link_libraries(${PROJECT_NAME} math_lib log_lib) #<-- линкуем несколько библиотек :)
+```
