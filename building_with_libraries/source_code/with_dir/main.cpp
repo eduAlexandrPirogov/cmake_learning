@@ -1,5 +1,5 @@
 #include <iostream>
-#include "math_lib/math.h"
+#include "math.h"
 #include "log.h"
 
 

@@ -117,17 +117,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named math_log
+# Target rules for targets named project_with_libs
 
 # Build rule for target.
-math_log: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 math_log
-.PHONY : math_log
+project_with_libs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 project_with_libs
+.PHONY : project_with_libs
 
 # fast build rule for target.
-math_log/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/math_log.dir/build.make CMakeFiles/math_log.dir/build
-.PHONY : math_log/fast
+project_with_libs/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_with_libs.dir/build.make CMakeFiles/project_with_libs.dir/build
+.PHONY : project_with_libs/fast
 
 #=============================================================================
 # Target rules for targets named math_lib
@@ -160,7 +160,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/math_log.dir/build.make CMakeFiles/math_log.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_with_libs.dir/build.make CMakeFiles/project_with_libs.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -168,7 +168,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/math_log.dir/build.make CMakeFiles/math_log.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_with_libs.dir/build.make CMakeFiles/project_with_libs.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -176,7 +176,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/math_log.dir/build.make CMakeFiles/math_log.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/project_with_libs.dir/build.make CMakeFiles/project_with_libs.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -189,7 +189,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... log_lib"
 	@echo "... math_lib"
-	@echo "... math_log"
+	@echo "... project_with_libs"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

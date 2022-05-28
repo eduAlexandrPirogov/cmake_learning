@@ -47,7 +47,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/math_log.dir/DependInfo.cmake"
+  "CMakeFiles/project_with_libs.dir/DependInfo.cmake"
   "math_lib/CMakeFiles/math_lib.dir/DependInfo.cmake"
   "log_lib/CMakeFiles/log_lib.dir/DependInfo.cmake"
   )

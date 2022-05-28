@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/project_with_libs.dir/main.cpp.o -o project_with_libs  math_lib/libmath_lib.a log_lib/liblog_lib.a 

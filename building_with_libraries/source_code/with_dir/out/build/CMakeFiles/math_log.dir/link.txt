@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/math_log.dir/main.cpp.o -o math_log  math_lib/libmath_lib.a log_lib/liblog_lib.a 
+/usr/bin/c++ CMakeFiles/math_log.dir/main.cpp.o -o math_log  log_lib/libmath_lib.a -llog_lib 
