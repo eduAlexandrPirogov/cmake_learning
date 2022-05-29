@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/edual/Desktop/cmake_learning/installing/src/math_lib
+CXX_INCLUDES = -I/home/edual/Desktop/cmake_learning/installing/install_via_make/src/math_lib
 
 CXX_FLAGS = 
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/edual/Desktop/cmake_learning/installing/src/math_lib
+# Install script for directory: /home/edual/Desktop/cmake_learning/installing/install_via_make/src/math_lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,10 +43,10 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/edual/Desktop/cmake_learning/installing/src/out/build/math_lib/libmath_lib.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/edual/Desktop/cmake_learning/installing/install_via_make/src/out/build/math_lib/libmath_lib.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/edual/Desktop/cmake_learning/installing/src/math_lib/math.h")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/home/edual/Desktop/cmake_learning/installing/install_via_make/src/math_lib/math.h")
 endif()
 

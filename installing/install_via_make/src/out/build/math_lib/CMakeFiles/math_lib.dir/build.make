@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/edual/Desktop/cmake_learning/installing/src
+CMAKE_SOURCE_DIR = /home/edual/Desktop/cmake_learning/installing/install_via_make/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/edual/Desktop/cmake_learning/installing/src/out/build
+CMAKE_BINARY_DIR = /home/edual/Desktop/cmake_learning/installing/install_via_make/src/out/build
 
 # Include any dependencies generated for this target.
 include math_lib/CMakeFiles/math_lib.dir/depend.make
@@ -72,16 +72,16 @@ include math_lib/CMakeFiles/math_lib.dir/flags.make
 math_lib/CMakeFiles/math_lib.dir/math.cpp.o: math_lib/CMakeFiles/math_lib.dir/flags.make
 math_lib/CMakeFiles/math_lib.dir/math.cpp.o: ../../math_lib/math.cpp
 math_lib/CMakeFiles/math_lib.dir/math.cpp.o: math_lib/CMakeFiles/math_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edual/Desktop/cmake_learning/installing/src/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object math_lib/CMakeFiles/math_lib.dir/math.cpp.o"
-	cd /home/edual/Desktop/cmake_learning/installing/src/out/build/math_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT math_lib/CMakeFiles/math_lib.dir/math.cpp.o -MF CMakeFiles/math_lib.dir/math.cpp.o.d -o CMakeFiles/math_lib.dir/math.cpp.o -c /home/edual/Desktop/cmake_learning/installing/src/math_lib/math.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/edual/Desktop/cmake_learning/installing/install_via_make/src/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object math_lib/CMakeFiles/math_lib.dir/math.cpp.o"
+	cd /home/edual/Desktop/cmake_learning/installing/install_via_make/src/out/build/math_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT math_lib/CMakeFiles/math_lib.dir/math.cpp.o -MF CMakeFiles/math_lib.dir/math.cpp.o.d -o CMakeFiles/math_lib.dir/math.cpp.o -c /home/edual/Desktop/cmake_learning/installing/install_via_make/src/math_lib/math.cpp
 
 math_lib/CMakeFiles/math_lib.dir/math.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/math_lib.dir/math.cpp.i"
-	cd /home/edual/Desktop/cmake_learning/installing/src/out/build/math_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edual/Desktop/cmake_learning/installing/src/math_lib/math.cpp > CMakeFiles/math_lib.dir/math.cpp.i
+	cd /home/edual/Desktop/cmake_learning/installing/install_via_make/src/out/build/math_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/edual/Desktop/cmake_learning/installing/install_via_make/src/math_lib/math.cpp > CMakeFiles/math_lib.dir/math.cpp.i
 
 math_lib/CMakeFiles/math_lib.dir/math.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/math_lib.dir/math.cpp.s"
-	cd /home/edual/Desktop/cmake_learning/installing/src/out/build/math_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edual/Desktop/cmake_learning/installing/src/math_lib/math.cpp -o CMakeFiles/math_lib.dir/math.cpp.s
+	cd /home/edual/Desktop/cmake_learning/installing/install_via_make/src/out/build/math_lib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/edual/Desktop/cmake_learning/installing/install_via_make/src/math_lib/math.cpp -o CMakeFiles/math_lib.dir/math.cpp.s
 
 # Object files for target math_lib
 math_lib_OBJECTS = \
@@ -93,19 +93,19 @@ math_lib_EXTERNAL_OBJECTS =
 math_lib/libmath_lib.a: math_lib/CMakeFiles/math_lib.dir/math.cpp.o
 math_lib/libmath_lib.a: math_lib/CMakeFiles/math_lib.dir/build.make
 math_lib/libmath_lib.a: math_lib/CMakeFiles/math_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edual/Desktop/cmake_learning/installing/src/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmath_lib.a"
-	cd /home/edual/Desktop/cmake_learning/installing/src/out/build/math_lib && $(CMAKE_COMMAND) -P CMakeFiles/math_lib.dir/cmake_clean_target.cmake
-	cd /home/edual/Desktop/cmake_learning/installing/src/out/build/math_lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/math_lib.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/edual/Desktop/cmake_learning/installing/install_via_make/src/out/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libmath_lib.a"
+	cd /home/edual/Desktop/cmake_learning/installing/install_via_make/src/out/build/math_lib && $(CMAKE_COMMAND) -P CMakeFiles/math_lib.dir/cmake_clean_target.cmake
+	cd /home/edual/Desktop/cmake_learning/installing/install_via_make/src/out/build/math_lib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/math_lib.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 math_lib/CMakeFiles/math_lib.dir/build: math_lib/libmath_lib.a
 .PHONY : math_lib/CMakeFiles/math_lib.dir/build
 
 math_lib/CMakeFiles/math_lib.dir/clean:
-	cd /home/edual/Desktop/cmake_learning/installing/src/out/build/math_lib && $(CMAKE_COMMAND) -P CMakeFiles/math_lib.dir/cmake_clean.cmake
+	cd /home/edual/Desktop/cmake_learning/installing/install_via_make/src/out/build/math_lib && $(CMAKE_COMMAND) -P CMakeFiles/math_lib.dir/cmake_clean.cmake
 .PHONY : math_lib/CMakeFiles/math_lib.dir/clean
 
 math_lib/CMakeFiles/math_lib.dir/depend:
-	cd /home/edual/Desktop/cmake_learning/installing/src/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edual/Desktop/cmake_learning/installing/src /home/edual/Desktop/cmake_learning/installing/src/math_lib /home/edual/Desktop/cmake_learning/installing/src/out/build /home/edual/Desktop/cmake_learning/installing/src/out/build/math_lib /home/edual/Desktop/cmake_learning/installing/src/out/build/math_lib/CMakeFiles/math_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/edual/Desktop/cmake_learning/installing/install_via_make/src/out/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/edual/Desktop/cmake_learning/installing/install_via_make/src /home/edual/Desktop/cmake_learning/installing/install_via_make/src/math_lib /home/edual/Desktop/cmake_learning/installing/install_via_make/src/out/build /home/edual/Desktop/cmake_learning/installing/install_via_make/src/out/build/math_lib /home/edual/Desktop/cmake_learning/installing/install_via_make/src/out/build/math_lib/CMakeFiles/math_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : math_lib/CMakeFiles/math_lib.dir/depend
 

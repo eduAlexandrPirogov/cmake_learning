@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/edual/Desktop/cmake_learning/installing/src/math_lib/math.cpp" "math_lib/CMakeFiles/math_lib.dir/math.cpp.o" "gcc" "math_lib/CMakeFiles/math_lib.dir/math.cpp.o.d"
+  "/home/edual/Desktop/cmake_learning/installing/install_via_make/src/math_lib/math.cpp" "math_lib/CMakeFiles/math_lib.dir/math.cpp.o" "gcc" "math_lib/CMakeFiles/math_lib.dir/math.cpp.o.d"
   )
 
 # Targets to which this target links.

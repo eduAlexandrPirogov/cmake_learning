@@ -87,9 +87,19 @@ install(TARGETS ${PROJECT_NAME} DESTINATION bin)
 
 Данная команда добавляет в UNIX OS исполняемую команду, кои лежат в директории `/bin/` (поскольку все команды есть просто бинарные файлы в UNIX).
 
-Теперь, настало время установить приложение! Заходим в `out/build` и прописываем `make install`:
+Теперь, настало время установить приложение! Заходим в `out/build` и прописываем `sudo make install`:
 
 ```
+Consolidate compiler generated dependencies of target math_lib
+[ 50%] Built target math_lib
+Consolidate compiler generated dependencies of target simple_math
+[100%] Built target simple_math
+Install the project...
+-- Install configuration: ""
+-- Installing: /usr/local/lib/libmath_lib.a
+-- Up-to-date: /usr/local/include/math.h
+-- Installing: /usr/local/bin/simple_math
+-- Set runtime path of "/usr/local/bin/simple_math" to ""
 ```
 
 Мы можем вызывать команду из терминала!

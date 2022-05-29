@@ -1,5 +1,5 @@
 CMakeFiles/simple_math.dir/main.cpp.o: \
- /home/edual/Desktop/cmake_learning/installing/src/main.cpp \
+ /home/edual/Desktop/cmake_learning/installing/install_via_make/src/main.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -145,4 +145,4 @@ CMakeFiles/simple_math.dir/main.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/edual/Desktop/cmake_learning/installing/src/math_lib/math.h
+ /home/edual/Desktop/cmake_learning/installing/install_via_make/src/math_lib/math.h
