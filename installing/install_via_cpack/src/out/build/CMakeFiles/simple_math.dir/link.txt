@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/simple_math.dir/main.cpp.o -o simple_math   -L/home/edual/Desktop/cmake_learning/installing/install_via_cpack/src/math_lib  -Wl,-rpath,/home/edual/Desktop/cmake_learning/installing/install_via_cpack/src/math_lib: math_lib/libmath_lib.a 
