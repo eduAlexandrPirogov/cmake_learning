@@ -1,0 +1,3 @@
+/home/edualvm1/Desktop/cmake_learning/find_library_package/find_package/src/out/build/CMakeFiles/fndpckg.dir
+/home/edualvm1/Desktop/cmake_learning/find_library_package/find_package/src/out/build/CMakeFiles/edit_cache.dir
+/home/edualvm1/Desktop/cmake_learning/find_library_package/find_package/src/out/build/CMakeFiles/rebuild_cache.dir
