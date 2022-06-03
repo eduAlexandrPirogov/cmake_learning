@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/fndpckg.dir/app.cpp.o -o fndpckg  /usr/lib/x86_64-linux-gnu/libpqxx.so /usr/lib/x86_64-linux-gnu/libpq.so 
