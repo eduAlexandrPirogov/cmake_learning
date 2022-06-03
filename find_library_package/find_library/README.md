@@ -110,6 +110,7 @@ target_link_libraries(fndpckg ${PQXX_LIB} ${PQ_LIB})
 — Configuring done
 — Generating done
 ```
+Теперь cmake находим указанную либу, без каких либо путей.
 
 Иммем новые команды:
 1. find_library(PQXX_LIB libpqxx-dev NAMES pqxx pq)
